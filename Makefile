@@ -7,7 +7,7 @@ all:
 	cd src/server && GO15VENDOREXPERIMENT=1 go build -o ../../bin/thrift-ex-server
 
 regen:
-	thrift -version || true # thrift -version needs to be 1.0.o-dev ! 
+	thrift -version || true # thrift -version needs to be 1.0.0-dev ! 
 	thrift --gen go -out vendor -r -I idl idl/tutorial.thrift
 
 
