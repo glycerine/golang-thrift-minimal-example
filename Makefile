@@ -13,7 +13,7 @@ regen:
 
 
 clean:
-	rm -f bin/*
+	rm -f bin/* *~
 
 run:
 	bin/thrift-ex-server -secure &
