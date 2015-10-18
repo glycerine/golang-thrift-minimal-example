@@ -11,7 +11,7 @@ You will need to have the 'thrift' binary from 1.0.0-dev (current github source 
 Specifically the https://github.com/apache/thrift/tree/master/tutorial/go example is re-organized here
 to make it easier to understand and extend.
 
-The vendored golang thrift library code is commit fa0796d33208eadafb6f42964c8ef29d7751bfc2 on 1.0.0-dev,
+The vendored golang thrift library code is commit fa0796d33208eadafb6f42964c8ef29d7751bfc2 on 1.0.0-dev.
 
 The last commit there is Fri Oct 16 21:33:39 2015 +0200, from https://github.com/apache/thrift
 
