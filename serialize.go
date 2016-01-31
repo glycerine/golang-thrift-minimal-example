@@ -41,6 +41,7 @@ func binary() {
 	}
 
 	b := tutorial.NewWork()
+	deser.Transport.Close() // resets underlying bytes.Buffer
 	err = deser.Read(b, by)
 	panicOn(err)
 	fmt.Printf("b = '%#v'\n", b)
@@ -77,6 +78,7 @@ func compact() {
 	}
 
 	b := tutorial.NewWork()
+	deser.Transport.Close() // resets underlying bytes.Buffer
 	err = deser.Read(b, by)
 	panicOn(err)
 	fmt.Printf("b = '%#v'\n", b)
